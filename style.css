@@ -1,0 +1,154 @@
+/* *{
+  margin: 0%;  
+} */
+.header{
+    display: flex;
+    background:linear-gradient(to right, rgba(255, 4, 4, 0.7),rgba(0, 193, 241, 0.7));
+    background-size: cover;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    
+}
+button{
+    
+    margin: 10px;
+    background: none;
+    border-radius: 7px;
+    border-color: white;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+button:active{
+    transform: scale(.9);
+}
+h1{
+    width: 500px;
+}
+.head-txt{
+    height: 100vp;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.easy{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding-top: 50px;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.moto-txt{
+    font-size: 35px;
+    text-align: center;
+    padding: 60px;
+    padding-top: 200px;
+}
+p{
+    font-weight:500;
+}
+.low{
+    font-size: 20px;
+    font-weight: 100;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap-reverse;
+}
+.text{
+    text-align: center;
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+}
+h2{
+    font-size: 60px;
+    padding: 50px;
+    padding-bottom: 5px;
+}
+.box{
+    height: 350px;
+    width: 400px;
+    border: 1px solid rgb(153, 151, 151);
+    border-radius: 10px;
+}
+h4{
+    text-align: center;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.amt{
+    font-size: 50px;
+}
+.sig{
+    color: black;
+    border: 2px solid black;
+    width: 350px;
+    margin-left: 20px;
+}
+.sig:hover{
+    background-color: black;
+    color: white;
+}
+.sig:active{
+    transform: scale(.9);
+}
+footer{
+    width: 100%;
+    height: 350px;
+}
+.info{
+    margin-top: 100px;
+    height: 150px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hed{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.butm-end{
+    display: flex;
+    
+    justify-content: space-around
+}
+.copyright{
+    position: relative;
+    top: 100px;
+}
+footer{
+    margin-top: 50px;
+    
+    background:linear-gradient(to right, rgba(255, 4, 4, 0.7),rgba(0, 193, 241, 0.7));
+}
